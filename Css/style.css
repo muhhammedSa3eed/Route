@@ -7,6 +7,7 @@
   --second-font: "Poppins", sans-serif;
   --bg-card: #ededed;
   --main-transition: 0.5s;
+  --box-shadow: 0 0 20px 5px #c1c1c1;
 }
 html {
   scroll-padding-top: 72px;
@@ -14,6 +15,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
+
 .bg-color {
   background-color: var(--main-color);
 }
@@ -86,6 +88,9 @@ body {
 .second-font {
   font-family: var(--second-font);
 }
+.g-6 {
+  row-gap: 30px;
+}
 /* ^ Start Navbar */
 .navbar-brand {
   transition: color var(--main-transition);
@@ -96,8 +101,8 @@ body {
 nav .nav-item .nav-link i {
   transition: color var(--main-transition);
 }
-nav .nav-item .nav-link i:hover {
-  color: white;
+nav .nav-item .nav-link:hover i {
+  color: white !important;
 }
 /* ^ End Navbar */
 
@@ -107,8 +112,12 @@ header .image {
 }
 /*  ? End Header */
 /* * Start Platforms */
+.platforms .inner {
+  transition: color var(--main-transition), transform var(--main-transition);
+}
 .platforms .inner:hover {
   color: white;
+  transform: scale(0.9);
 }
 .platforms .inner h2 a {
   transition: color var(--main-transition);
@@ -140,10 +149,19 @@ header .image {
 /* * End Platforms */
 /* ~ Start instructor */
 .instructor .inst-card {
-  transition: color var(--main-transition);
+  transition: color var(--main-transition), transform var(--main-transition),
+    box-shadow var(--main-transition);
 }
 .instructor .inst-card:hover {
   color: white !important;
+  transform: translateY(-15px) scale(1.05);
+  box-shadow: var(--box-shadow);
+}
+.instructor .inst-card .image {
+  transition: filter var(--main-transition);
+}
+.instructor .inst-card:hover .image {
+  filter: grayscale(100%);
 }
 .instructor .inst-card::before {
   content: "";
@@ -194,11 +212,25 @@ header .image {
 }
 /* & End Students */
 /* ! Start Testimonials */
+.testimonials .inner {
+  transition: transform var(--main-transition),
+    box-shadow var(--main-transition);
+}
+.testimonials .inner:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 5px #ddd;
+}
 .testimonials .inner .image {
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    transform: translate(-50% , -50%);
+  transition: border-color var(--main-transition);
+}
+.testimonials .inner:hover .image {
+  border-color: var(--main-color) !important;
+}
+.testimonials .inner .image {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* ! End Testimonials */

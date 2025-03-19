@@ -1,0 +1,204 @@
+:root {
+  --main-color: #16db93;
+  --bg-nav: #5c728566;
+  --bg-second: #eeeeee92;
+  --text-second: #901b20;
+  --text-title: #203947;
+  --second-font: "Poppins", sans-serif;
+  --bg-card: #ededed;
+  --main-transition: 0.5s;
+}
+html {
+  scroll-padding-top: 72px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.bg-color {
+  background-color: var(--main-color);
+}
+.bg-second {
+  background-color: var(--bg-second);
+}
+.text-color {
+  color: var(--main-color);
+}
+.bg-card {
+  background-color: var(--bg-card);
+}
+.bg-nav {
+  background-color: var(--bg-nav);
+}
+.box-shadow {
+  box-shadow: 0 0 8px 0 rgba(133, 124, 124, 0.5);
+}
+.iframe-shadow {
+  box-shadow: 0 0 20px 10px #9d9696;
+}
+.platforms .inner {
+  transition: color var(--main-transition), font-weight var(--main-transition);
+}
+.w-60px {
+  width: 60px;
+}
+.h-60px {
+  height: 60px;
+}
+.w-150px {
+  width: 150px;
+}
+.h-150px {
+  height: 150px;
+}
+.w-100px {
+  width: 100px;
+}
+.h-100px {
+  height: 100px;
+}
+.w-45px {
+  width: 45px;
+}
+.h-45px {
+  height: 45px;
+}
+.w-50px {
+  width: 50px;
+}
+.h-50px {
+  height: 50px;
+}
+.letter-1px {
+  letter-spacing: 1px;
+}
+.line {
+  line-height: 1.7;
+}
+.isolate {
+  isolation: isolate;
+}
+.text-second {
+  color: var(--text-second);
+}
+.text-title {
+  color: var(--text-title);
+}
+.second-font {
+  font-family: var(--second-font);
+}
+/* ^ Start Navbar */
+.navbar-brand {
+  transition: color var(--main-transition);
+}
+.navbar-brand:hover {
+  color: white;
+}
+nav .nav-item .nav-link i {
+  transition: color var(--main-transition);
+}
+nav .nav-item .nav-link i:hover {
+  color: white;
+}
+/* ^ End Navbar */
+
+/*  ? Start Header */
+header .image {
+  bottom: -330px;
+}
+/*  ? End Header */
+/* * Start Platforms */
+.platforms .inner:hover {
+  color: white;
+}
+.platforms .inner h2 a {
+  transition: color var(--main-transition);
+}
+.platforms .inner:hover h2 a {
+  color: white !important;
+}
+.platforms .inner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--main-color);
+  z-index: -1;
+  transition: width var(--main-transition);
+}
+.platforms .inner:hover::before {
+  width: 100%;
+}
+.platforms .inner .icon {
+  transition: background-color var(--main-transition);
+}
+
+.platforms .inner:hover .icon {
+  background-color: #000;
+}
+/* * End Platforms */
+/* ~ Start instructor */
+.instructor .inst-card {
+  transition: color var(--main-transition);
+}
+.instructor .inst-card:hover {
+  color: white !important;
+}
+.instructor .inst-card::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: var(--main-color);
+  z-index: -1;
+  transition: height var(--main-transition);
+}
+.instructor .inst-card:hover::before {
+  height: 100%;
+}
+.instructor .inst-card .social-icons .icon {
+  transition: background-color var(--main-transition);
+}
+.instructor .inst-card .social-icons .icon:hover {
+  background-color: #000 !important;
+}
+.instructor .inst-card .social-icons i {
+  transition: color var(--main-transition);
+}
+.instructor .inst-card:hover .social-icons i {
+  color: white;
+}
+/* ~ End instructor */
+/* & Start Students */
+.students .main-title::before,
+.testimonials .main-title::before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 0;
+  width: 7px;
+  height: 100%;
+  background-color: var(--text-second);
+}
+.students .inner h2::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 0;
+  width: 50px;
+  height: 4px;
+  background-color: #9e9e9e;
+}
+/* & End Students */
+/* ! Start Testimonials */
+.testimonials .inner .image {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+/* ! End Testimonials */

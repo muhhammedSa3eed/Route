@@ -1,0 +1,29 @@
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (max-width: 992px) {
+  nav .container {
+    border-radius: 5px !important;
+  }
+  header .container .content {
+    width: 100% !important;
+    text-align: center;
+  }
+.navbar-brand {
+  width: 30px !important;
+  height: 30px !important;
+}
+  header .image {
+    display: none;
+  }
+  .testimonials .inner {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .students .container .inner {
+    margin-bottom: 30px;
+  }
+}

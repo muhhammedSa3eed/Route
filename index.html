@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Route</title>
+    <!-- ! Fav Icon -->
+    <link
+      rel="shortcut icon"
+      href="Images/virtual-reality.png"
+      type="image/x-icon"
+    />
+    <!-- ! Font Awesome -->
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <!-- ! Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--  ! Bootstrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- ! Main Style -->
+    <link rel="stylesheet" href="Css/style.css" />
+    <!-- ! Media Query -->
+    <link rel="stylesheet" href="Css/media.css" />
+  </head>
+  <body>
+    <!-- ^ Navbar -->
+    <nav class="navbar navbar-expand-lg bg-color position-absolute top-0 start-0 w-100">
+      <div class="container rounded-pill bg-nav ">
+        <a class="navbar-brand py-3 fw-bold w-45px h-45px rounded-circle overflow-hidden  " href="#header"
+          >
+          <img src="Images/logo.png" class="w-100 position-relative" style="top: -16px;" alt="">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 py-3 d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item fw-bold">Avilable For :</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-robot"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-brands fa-apple fs-5"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-brands fa-windows"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- & Head Section -->
+    <header id="header" class="bg-color vh-100 overflow-hidden">
+      <div
+        class="container vh-100 d-flex align-items-center justify-content-between position-relative mt-5"
+      >
+        <div class="content w-50 py-4 px-2">
+          <h1 class="display-2 fw-semibold text-white">Explore Route !</h1>
+          <p class="mt-4 mb-5 fs-5 text-white">
+            "Route Academy provides professional training in technology,
+            business, and personal development. With expert guidance and
+            practical learning, it empowers individuals to build skills, advance
+            careers, and achieve their goals."
+          </p>
+          <button class="btn btn-outline-light py-2 px-4 rounded-pill fw-bold">
+            Explore Now!
+          </button>
+        </div>
+        <div class="image position-absolute end-0 w-50">
+          <img src="Images/phone.png" alt="Iphone" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="platforms py-5" id="platforms">
+        <div
+          class="main-title d-flex justify-content-center align-items-center"
+        >
+          <h2 class="title py-2 fw-bold letter-1px">Platforms</h2>
+        </div>
+        <div class="container py-4">
+          <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="inner text-center py-4 px-2 box-shadow position-relative rounded-2 overflow-hidden"
+              >
+                <div
+                  class="icon w-50px h-50px border border-2 rounded-circle d-flex justify-content-center align-items-center m-auto mb-3"
+                >
+                  <i class="fa-brands fa-github my-3 fs-2"></i>
+                </div>
+                <h2 class="mb-3">
+                  <a
+                    class="text-decoration-none text-black"
+                    href="https://www.github.com"
+                    target="_blank"
+                    >Github</a
+                  >
+                </h2>
+                <p>
+                  "Developer specializing in web and app solutions, focusing on
+                  user-friendly designs, educational tools, and innovative
+                  technology-driven projects."
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="inner text-center py-4 px-2 box-shadow position-relative rounded-2 overflow-hidden"
+              >
+                <div
+                  class="icon w-50px h-50px border border-2 rounded-circle d-flex justify-content-center align-items-center m-auto mb-3"
+                >
+                  <i class="fa-brands fa-facebook-f my-3 fs-2"></i>
+                </div>
+                <h2 class="mb-3">
+                  <a
+                    class="text-decoration-none text-black"
+                    href="https://www.facebook.com"
+                    target="_blank"
+                    >Facebook</a
+                  >
+                </h2>
+                <p>
+                  "Innovative developer passionate about creating user-friendly
+                  websites, apps, and tools that make technology accessible and
+                  impactful for everyone."
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="inner text-center py-4 px-2 box-shadow position-relative rounded-2 overflow-hidden"
+              >
+                <div
+                  class="icon w-50px h-50px border border-2 rounded-circle d-flex justify-content-center align-items-center m-auto mb-3"
+                >
+                  <i class="fa-brands fa-instagram my-3 fs-2"></i>
+                </div>
+                <h2 class="mb-3">
+                  <a
+                    class="text-decoration-none text-black"
+                    href="https://www.instagram.com"
+                    target="_blank"
+                    >Instagram</a
+                  >
+                </h2>
+                <p>
+                  "Passionate developer creating apps and websites, blending
+                  creativity with technology to deliver innovative and
+                  user-friendly solutions for all."
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="inner text-center py-4 px-2 box-shadow position-relative rounded-2 overflow-hidden"
+              >
+                <div
+                  class="icon w-50px h-50px border border-2 rounded-circle d-flex justify-content-center align-items-center m-auto mb-3"
+                >
+                  <i class="fa-brands fa-youtube my-3 fs-2"></i>
+                </div>
+                <h2 class="mb-3">
+                  <a
+                    class="text-decoration-none text-black"
+                    href="https://www.youtube.com"
+                    target="_blank"
+                    >Youtube</a
+                  >
+                </h2>
+                <p>
+                  "Sharing knowledge and creativity through coding, web design,
+                  and app development. Join me for tutorials, tips, and tech
+                  inspiration!"
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="inner text-center py-4 px-2 box-shadow position-relative rounded-2 overflow-hidden"
+              >
+                <div
+                  class="icon w-50px h-50px border border-2 rounded-circle d-flex justify-content-center align-items-center m-auto mb-3"
+                >
+                  <i class="fa-brands fa-behance my-3 fs-2"></i>
+                </div>
+                <h2 class="mb-3">
+                  <a
+                    class="text-decoration-none text-black"
+                    href="https://www.behance.com"
+                    target="_blank"
+                    >Behance</a
+                  >
+                </h2>
+                <p>
+                  "Showcasing creative web and app designs with a focus on
+                  innovation, functionality, and user-friendly experiences.
+                  Design meets technology here!"
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="inner text-center py-4 px-2 box-shadow position-relative rounded-2 overflow-hidden"
+              >
+                <div
+                  class="icon w-50px h-50px border border-2 rounded-circle d-flex justify-content-center align-items-center m-auto mb-3"
+                >
+                  <i class="fa-brands fa-linkedin-in my-3 fs-2"></i>
+                </div>
+                <h2 class="mb-3">
+                  <a
+                    class="text-decoration-none text-black"
+                    href="https://www.linkedin.com"
+                    target="_blank"
+                    >Linkedin</a
+                  >
+                </h2>
+                <p>
+                  "Web and app developer passionate about creating innovative,
+                  user-focused solutions. Skilled in design, coding, and turning
+                  ideas into reality."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="instructor py-5 bg-second" id="instructor">
+        <div
+          class="main-title d-flex justify-content-center align-items-center"
+        >
+          <h2 class="title py-2 fw-bold letter-1px">Instructors</h2>
+        </div>
+        <div class="container py-4">
+          <div class="row g-5 justify-content-center isolate">
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="inst-card rounded-3 box-shadow position-relative overflow-hidden"
+              >
+                <div class="inner text-center py-5 px-4">
+                  <div
+                    class="image m-auto h-150px w-150px rounded-circle overflow-hidden"
+                  >
+                    <img
+                      src="Images/usama.jpg"
+                      class="w-100 h-100"
+                      alt="Man Image"
+                    />
+                  </div>
+                  <h2 class="my-3">Usama Ali</h2>
+                  <h3 class="h5">Full Stack MERN</h3>
+                  <p class="my-3 line">
+                    "Skilled Full Stack MERN Developer specializing in building
+                    dynamic, scalable web applications using MongoDB,
+                    Express.js, React, and Node.js. Passionate about delivering
+                    efficient, user-friendly, and innovative solutions."
+                  </p>
+                  <div
+                    class="social-icons mt-3 d-flex justify-content-center align-items-center gap-2"
+                  >
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-facebook-f fs-4"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.behance.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-behance fs-4"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-linkedin-in fs-4"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="inst-card rounded-3 box-shadow position-relative overflow-hidden"
+              >
+                <div class="inner text-center py-5 px-4">
+                  <div
+                    class="image m-auto h-150px w-150px rounded-circle overflow-hidden"
+                  >
+                    <img
+                      src="Images/amira fathy.jpg"
+                      class="w-100 h-100"
+                      alt="Man Image"
+                    />
+                  </div>
+                  <h2 class="my-3">Amira Fathy</h2>
+                  <h3 class="h5">Frontend Developer</h3>
+                  <p class="my-3 line">
+                    "Creative Frontend Developer specializing in crafting
+                    interactive, responsive user interfaces. Proficient in HTML,
+                    CSS, JavaScript, and frameworks like React to deliver
+                    visually appealing and user-friendly web experiences."
+                  </p>
+                  <div
+                    class="social-icons mt-3 d-flex justify-content-center align-items-center gap-2"
+                  >
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-facebook-f fs-4"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.behance.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-behance fs-4"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-linkedin-in fs-4"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="inst-card rounded-3 box-shadow position-relative overflow-hidden"
+              >
+                <div class="inner text-center py-5 px-4">
+                  <div
+                    class="image m-auto h-150px w-150px rounded-circle overflow-hidden"
+                  >
+                    <img
+                      src="Images/youssef essam.jpg"
+                      class="w-100 h-100"
+                      alt="Man Image"
+                    />
+                  </div>
+                  <h2 class="my-3">Youssef Essam</h2>
+                  <h3 class="h5">Backend Developer</h3>
+                  <p class="my-3 line">
+                    "Backend Developer with expertise in building robust
+                    server-side applications. Skilled in APIs, databases, and
+                    performance optimization, delivering secure, scalable, and
+                    efficient backend solutions for seamless application."
+                  </p>
+                  <div
+                    class="social-icons mt-3 d-flex justify-content-center align-items-center gap-2"
+                  >
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-facebook-f fs-4"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.behance.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-behance fs-4"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-linkedin-in fs-4"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="inst-card rounded-3 box-shadow position-relative overflow-hidden"
+              >
+                <div class="inner text-center py-5 px-4">
+                  <div
+                    class="image m-auto h-150px w-150px rounded-circle overflow-hidden"
+                  >
+                    <img
+                      src="Images/shreen reda.jpg"
+                      class="w-100 h-100"
+                      alt="Man Image"
+                    />
+                  </div>
+                  <h2 class="my-3">Shreen Reda</h2>
+                  <h3 class="h5">Flutter Developer</h3>
+                  <p class="my-3 line">
+                    "Skilled Flutter Developer creating cross-platform mobile
+                    apps with a focus on seamless performance, responsive
+                    design, and exceptional user experience. Proficient in Dart
+                    and passionate about delivering innovative solutions."
+                  </p>
+                  <div
+                    class="social-icons mt-3 d-flex justify-content-center align-items-center gap-2"
+                  >
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-facebook-f fs-4"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.behance.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-behance fs-4"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-linkedin-in fs-4"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="inst-card rounded-3 box-shadow position-relative overflow-hidden"
+              >
+                <div class="inner text-center py-5 px-4">
+                  <div
+                    class="image m-auto h-150px w-150px rounded-circle overflow-hidden"
+                  >
+                    <img
+                      src="Images/moamen ali.jpg"
+                      class="w-100 h-100"
+                      alt="Man Image"
+                    />
+                  </div>
+                  <h2 class="my-3">Moamen Ali</h2>
+                  <h3 class="h5">Machine Learning Developer</h3>
+                  <p class="my-3 line">
+                    "Machine Learning Engineer skilled in building predictive
+                    models and intelligent systems. Proficient in Python, data
+                    analysis, and deep learning, delivering innovative,
+                    data-driven solutions to solve real-world challenges."
+                  </p>
+                  <div
+                    class="social-icons mt-3 d-flex justify-content-center align-items-center gap-2"
+                  >
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-facebook-f fs-4"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.behance.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-behance fs-4"></i
+                      ></a>
+                    </div>
+                    <div
+                      class="icon w-50px h-50px rounded-circle border border-2 d-flex align-items-center justify-content-center"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com"
+                        class="text-black"
+                      >
+                        <i class="fa-brands fa-linkedin-in fs-4"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="students py-5" id="students">
+        <div class="container my-5 main-title position-relative">
+          <h2 class="title fw-bold letter-1px text-title">Route In Numbers</h2>
+          <h4 class="text-title mb-0 second-font">Quick Facts About Route</h4>
+        </div>
+        <div class="container">
+          <div class="row my-5">
+            <div class="col-lg-3 col-md-4">
+              <div class="inner py-3 px-3 rounded-4 box-shadow">
+                <h1 class="pb-3 fw-bolder text-second">32+</h1>
+                <h2 class="position-relative h5 fw-bolder text-secondary">
+                  IT Specializations
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <div class="inner py-3 px-3 rounded-4 box-shadow">
+                <h1 class="pb-3 fw-bolder text-second">85%</h1>
+                <h2 class="position-relative h5 fw-bolder text-secondary">
+                  Annual Employment Rate
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <div class="inner py-3 px-3 rounded-4 box-shadow">
+                <h1 class="pb-3 fw-bolder text-second">500+</h1>
+                <h2 class="position-relative h5 fw-bolder text-secondary">
+                  Companies
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <div class="inner py-3 px-3 rounded-4 box-shadow">
+                <h1 class="pb-3 fw-bolder text-second">80+</h1>
+                <h2 class="position-relative h5 fw-bolder text-secondary">
+                  Universities & Faculties
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="explore py-5 bg-second" id="explore">
+        <div
+          class="main-title d-flex justify-content-center align-items-center"
+        >
+          <h2 class="title py-2 fw-bold letter-1px">Explore Route</h2>
+        </div>
+        <div
+          class="container d-flex justify-content-center align-items-center py-4"
+        >
+          <iframe
+            width="100%"
+            height="600px"
+            src="https://www.youtube.com/embed/0t_DEooE4i8?si=wYWt0wz1YAsSMoJl"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            class="rounded-4 iframe-shadow"
+          ></iframe>
+        </div>
+      </section>
+      <section class="testimonials py-5" id="testimonials">
+        <div class="container my-5 main-title position-relative">
+          <h2 class="title fw-bold letter-1px text-title">Testimonials</h2>
+          <h4 class="text-title mb-0 second-font">What People Say About Us</h4>
+        </div>
+        <div class="container py-4">
+          <div class="row my-3 g-5">
+            <div class="col-lg-6">
+              <div class="inner py-5 px-3 position-relative rounded-5 bg-card">
+                <div
+                  class="image rounded-circle overflow-hidden bg-info w-100px h-100px border border-5 border-dark-subtle"
+                >
+                  <img
+                    src="Images/doctor1.jpg"
+                    class="w-100 h-100"
+                    alt="Doctor Image"
+                  />
+                </div>
+                <h2 class="mt-4 h4 fw-bold text-center text-second">
+                  Dr. John Kelly
+                </h2>
+                <h3 class="h6 text-center my-3 fw-bolder">
+                  Vice Prisedent Research, IBM
+                </h3>
+                <p class="mb-2 line second-font text-muted">
+                  I’ve always wanted to start my own company but I had my share
+                  of fears blocking the way. When I joined the ITI, I got to
+                  learn the technological knowledge I needed in addition to, the
+                  managerial skills I needed to set my fear aside and helped my
+                  gain the confidence to pursue my dream.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="inner py-5 px-3 position-relative rounded-5 bg-card">
+                <div
+                  class="image rounded-circle overflow-hidden bg-info w-100px h-100px border border-5 border-dark-subtle"
+                >
+                  <img
+                    src="Images/Ruhakana-Rugunda.png"
+                    class="w-100 h-100"
+                    alt="Doctor Image"
+                  />
+                </div>
+                <h2 class="mt-4 h4 fw-bold text-center text-second">
+                  Dr. Ruhakana Rugunda
+                </h2>
+                <h3 class="h6 text-center my-3 fw-bolder">
+                  Prime Minister Of Uganda
+                </h3>
+                <p class="mb-2 line second-font text-muted">
+                  I’ve always wanted to start my own company but I had my share
+                  of fears blocking the way. When I joined the ITI, I got to
+                  learn the technological knowledge I needed in addition to, the
+                  managerial skills I needed to set my fear aside and helped my
+                  gain the confidence to pursue my dream.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+
+      <footer class="bg-color text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+
+            <!-- Github -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2020 Copyright:
+          <a
+            class="text-white"
+            href="https://www.linkedin.com/in/muhhammed-ahmed-64162b319/"
+            >Muhhammed Ahmed</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+      <!-- End of .container -->
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
